@@ -10,7 +10,7 @@ def show_banner():
     text = """\033[1;32m
                            __ __ __    ____  ________ __
                           / //_// /   / __ \/ ____/ //_/
-                         / ,<  / /   / / / / /   / ,<   
+                         / .<  / /   / / / / /   / .<   
                         / /| |/ /___/ /_/ / /___/ /| |  
                        /_/ |_/_____/\____/\____/_/ |_|                                     
                                     \033[31m by MD.Bayazid
@@ -154,14 +154,22 @@ def main():
 while True:
     try:
         main()
+        b = get_input('Type exit to close or press enter to run again: ')
+        if 'exit' in b:
+            sys.exit()
         print()
         status = False
         print_current = False
     except Exception as e:
         error_status(e)
-        print_current = False
-        status = False
         print()
+        b = get_input('Type exit to close or press enter to run again: ')
+        if 'exit' in b:
+            sys.exit()
+        print_current = False
+        
+        status = False
+        
     except KeyboardInterrupt :
         print()
         warning_status('Exiting...')
