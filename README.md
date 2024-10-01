@@ -23,6 +23,9 @@ Install the required dependencies:
 ```bash
 
    pip install PyMuPDF
+
+
+
 Run the tool:
 
 ```bash
