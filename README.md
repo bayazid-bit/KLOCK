@@ -20,20 +20,20 @@
    git clone https://github.com/bayazid-bit/klock.git
 Install the required dependencies:
 
-bash
-Copy code
+```bash
+
 pip install PyMuPDF
 Run the tool:
 
-bash
-Copy code
+```bash
+
 python klock.py
 Usage
 Wordlist Attack
 
 Use a predefined wordlist to try potential passwords.
 Example:
-bash
+
 
 python klock.py
 When prompted, choose the wordlist method and provide the path to your wordlist.
