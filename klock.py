@@ -154,6 +154,7 @@ def main():
 while True:
     try:
         main()
+        print()
         b = get_input('Type exit to close or press enter to run again: ')
         if 'exit' in b:
             sys.exit()
