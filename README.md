@@ -18,17 +18,15 @@
 1. Clone the repository or download the script:
    ```bash
    git clone https://github.com/bayazid-bit/klock.git
-Install the required dependencies:
+2. Install the required dependencies:
+   ```bash
+   pip install PyMuPDF
+
+
+
+3.Run the tool:
 
    ```bash
- pip install PyMuPDF
-
-
-
-Run the tool:
-
-```bash
-
    python klock.py
 
 
