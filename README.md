@@ -20,9 +20,8 @@
    git clone https://github.com/bayazid-bit/klock.git
 Install the required dependencies:
 
-```bash
-
-   pip install PyMuPDF
+   ```bash
+ pip install PyMuPDF
 
 
 
@@ -30,7 +29,9 @@ Run the tool:
 
 ```bash
 
-python klock.py
+   python klock.py
+
+
 Usage
 Wordlist Attack
 
