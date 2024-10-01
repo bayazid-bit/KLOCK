@@ -21,9 +21,9 @@
 2. Install the required dependencies:
    ```bash
    pip install PyMuPDF
-3.Run the tool:
+3. Run the tool:
    ```bash
-   python klock.py
+   python3 klock.py
 
 
 Usage
